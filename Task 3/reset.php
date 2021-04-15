@@ -20,7 +20,7 @@ include 'header.php';
     <div class="text-center mt-2 mb-3 <?php echo $class; ?>">
     <label for="new_Password" class="sr-only">New password</label>
       <input type="password" id="new_Password" class="form-control regBorder" name = "new_password" placeholder="New password">
-      <div class="mb-2 text-primary">
+      <div class="mb-2 text-danger">
         <?php echo $error['new_password']; ?>
       </div>
       <label for="confirmPassword" class="sr-only">Confirm new password</label>
